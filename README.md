@@ -9,7 +9,7 @@
 
 ### Screen
 
-![Homepage](https://github.com/brkyzc-uk/CurrencyApp/blob/main/1.png =x250)
+![Homepage](https://github.com/brkyzc-uk/CurrencyApp/blob/main/1.png | width=100)
 
 ![Homepage](https://github.com/brkyzc-uk/CurrencyApp/blob/main/2.png)
 
