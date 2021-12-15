@@ -9,7 +9,7 @@
 
 ### Screen
 
-![Homepage](https://github.com/brkyzc-uk/To-Do-List-Javascript/blob/master/todolist.png)
+![Homepage](https://github.com/brkyzc-uk/To-Do-List-Javascript/blob/master/todolist.pnwg)
 
 
 
