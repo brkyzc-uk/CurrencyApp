@@ -9,7 +9,13 @@
 
 ### Screen
 
-![Homepage](https://github.com/brkyzc-uk/To-Do-List-Javascript/blob/master/todolist.pnwg)
+![Homepage](https://github.com/brkyzc-uk/CurrencyApp/blob/main/1.png)
+
+![Homepage](https://github.com/brkyzc-uk/CurrencyApp/blob/main/2.png)
+
+![Homepage](https://github.com/brkyzc-uk/CurrencyApp/blob/main/3.png)
+
+![Homepage](https://github.com/brkyzc-uk/CurrencyApp/blob/main/4.png)
 
 
 
