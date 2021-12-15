@@ -9,13 +9,8 @@
 
 ### Screen
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-| 
+
 ![Homepage](https://github.com/brkyzc-uk/CurrencyApp/blob/main/1.png)
-  |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
 
 ![Homepage](https://github.com/brkyzc-uk/CurrencyApp/blob/main/2.png)
 
