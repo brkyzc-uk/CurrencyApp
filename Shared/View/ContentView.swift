@@ -16,25 +16,36 @@ struct ContentView: View {
 
             VStack(alignment: .center) {
 
-               
+                if viewModel.currencies.isEmpty {
+                    Spacer()
+                    Text("Loading...")
+                        .multilineTextAlignment(.center)
+                        .padding()
+                    Spacer()
+                } else if viewModel.currencies.count < 1 {
+                    Spacer()
+                    Text("Error! Couldn't fetch the currencies")
+                        .multilineTextAlignment(.center)
+                        .padding()
+                    Spacer()
+                } else {
+                    calculationView()
 
-                calculationView()
+                    Spacer()
+
+                    Text(viewModel.getCurrentCurrencyRateText())
+                        .multilineTextAlignment(.center)
+                        .padding(8)
+                        .font(Font.system(size: 13))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 16)
+                                .stroke(Color.black, lineWidth: 1)
+                        )
+                        .opacity(0.4)
 
 
-                Spacer()
-
-                Text(viewModel.getCurrentCurrencyRateText())
-                    .multilineTextAlignment(.center)
-                    .padding(8)
-                    .font(Font.system(size: 13))
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 16)
-                            .stroke(Color.black, lineWidth: 1)
-                    )
-                    .opacity(0.4)
-
-
-                exchangeButton()
+                    exchangeButton()
+                }
             }
             .navigationTitle("Exchange")
             .navigationBarTitleDisplayMode(.inline)
